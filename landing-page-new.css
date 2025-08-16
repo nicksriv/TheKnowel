@@ -577,6 +577,11 @@ body {
     align-items: stretch;
 }
 
+.books-showcase .book-item {
+    min-height: 650px !important;
+    height: auto;
+}
+
 .book-item {
     background: var(--white);
     border-radius: var(--border-radius);
@@ -587,7 +592,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    min-height: 650px;
+    min-height: 650px !important;
+    max-height: none;
 }
 
 .book-item:hover {
