@@ -753,11 +753,12 @@ body {
     color: var(--gray);
     font-weight: 500;
     font-style: italic;
-    height: 1.2rem;
+    height: 1.5rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin: 0;
+    line-height: 1.5;
 }
 
 .book-description {
